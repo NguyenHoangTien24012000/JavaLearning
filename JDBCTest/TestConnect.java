@@ -11,6 +11,7 @@ public class TestConnect {
     public static final String COLUMN_EMAIL = "email";
 
     public static void main(String[] args) {
+        System.out.println("Test change git");
         try {
             Connection connection = DriverManager.getConnection(CONNECTION_STRING);
 //            connection.setAutoCommit(false);
