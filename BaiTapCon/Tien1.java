@@ -1,6 +1,6 @@
 package BaiTapCon;
 
-public class Tien1Work {
+public class Tien1 {
     public static void main(String[] args) {
         System.out.println("tien1 lam viec");
 
