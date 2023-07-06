@@ -8,5 +8,7 @@ public class Tien1Work {
 
         System.out.println("Master code");
 
+        System.out.println("tien2 code");
+
     }
 }
