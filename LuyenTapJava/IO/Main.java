@@ -1,13 +1,13 @@
 package LuyenTapJava.IO;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     private static Locations locations = new Locations();
 
     public static void main(String[] args) {
+        ArrayList<String> test = new ArrayList<>(List.of("A", "B", "C", "D"));
+        Set<String> test1 = new TreeSet<>(test);
         // Change the program to allow players to type full words, or phrases, then move to the
         // correct location based upon their input.
         // The player should be able to type commands such as "Go West", "run South", or just "East"
